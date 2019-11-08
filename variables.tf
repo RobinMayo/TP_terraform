@@ -20,3 +20,18 @@ variable owner {
 variable "cidr_block" {
   default = "172.23.0.0/16"
 }
+
+# Subnet 172.23.1.0/24
+
+#### subnet calcul
+variable "netbits" {
+  default = "8"
+}
+
+variable "public_networks_prefix" {
+  default = "0"
+}
+
+variable "private_networks_prefix" {
+  default = "8"
+}
